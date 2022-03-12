@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean id="student1" class="student.Student">
+		<constructor-arg>
+			<value>Kim</value>
+		</constructor-arg>
+		<constructor-arg>
+			<value>100</value>
+		</constructor-arg>
+		<constructor-arg>
+			<value>90</value>
+		</constructor-arg>
+		<constructor-arg>
+			<value>95</value>
+		</constructor-arg>
+		<constructor-arg>
+			<value>89</value>
+		</constructor-arg>
+	</bean>
+	<bean id="student2" class="student.Student">
+		<constructor-arg>
+			<value>Lee</value>
+		</constructor-arg>
+		<constructor-arg>
+			<value>60</value>
+		</constructor-arg>
+		<constructor-arg>
+			<value>70</value>
+		</constructor-arg>
+		<constructor-arg>
+			<value>99</value>
+		</constructor-arg>
+		<constructor-arg>
+			<value>98</value>
+		</constructor-arg>
+	</bean>
+	<bean id="student3" class="student.Student">
+		<constructor-arg>
+			<value>Park</value>
+		</constructor-arg>
+		<constructor-arg>
+			<value>68</value>
+		</constructor-arg>
+		<constructor-arg>
+			<value>86</value>
+		</constructor-arg>
+		<constructor-arg>
+			<value>60</value>
+		</constructor-arg>
+		<constructor-arg>
+			<value>40</value>
+		</constructor-arg>
+	</bean>
+</beans>
